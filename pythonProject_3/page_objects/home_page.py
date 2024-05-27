@@ -48,3 +48,5 @@ class Registration(BasePage):
         self._driver.find_element(
             By.XPATH, "//div[@class='modal-footer']//button[@class='btn btn-primary']"
         ).click()
+
+

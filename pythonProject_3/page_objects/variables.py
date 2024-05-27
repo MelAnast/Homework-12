@@ -1,3 +1,6 @@
+from shlex import join
+
+
 class Variables:
     name = "Nastya"
     last_name = "Mel"
@@ -9,3 +12,5 @@ class Variables:
     new_car_mileage = 1
     number_of_liters = 20
     total_cost = 40
+    registration_name = (f"{name} {last_name}")
+    added_car = (f"{car_brand_name} {car_model_name}")

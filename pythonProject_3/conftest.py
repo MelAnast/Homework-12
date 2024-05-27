@@ -9,4 +9,4 @@ def driver():
     # return driver
     yield driver
     # post-conditions / teardown
-    driver.close()
+    # driver.close()
